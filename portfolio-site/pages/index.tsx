@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
   projectDataArr.push(
     {
-      title: "Drug Information App",
+      title: "Drug Info App",
       desc: "Flask app with user authentication",
       url: "/druginfo",
       image: "/madison-agardi-QNrjcp90tVc-unsplash.jpg",
@@ -24,16 +24,16 @@ const Home: NextPage = () => {
     {
       title: "Burger Builder App",
       desc: "Interactive React burger ordering app",
-      url: "",
+      url: "/burgerapp",
       image: "/likemeat-CZhehjoDe68-unsplash.jpeg",
     }
   );
 
   projectDataArr.push(
     {
-      title: "Tiles Game Server",
-      desc: "A real-time multiplayer socket game server",
-      url: "",
+      title: "Socket Game Server",
+      desc: "A real-time multiplayer tiles game",
+      url: "/tiles",
       image: "/ella-don-JomkRNkzKhE-unsplash.jpg",
     }
   );
@@ -46,20 +46,15 @@ const Home: NextPage = () => {
     projectDataElements.push(element);
   };
 
-
-  
-
-
   return (
     <Layout>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 ">
         <Header />
         <Title />
         <Profile />
-        <div className="mt-3 flex flex-col gap-3">
+        <div className="mt-3 flex flex-col gap-4">
           {projectDataElements}
         </div>
-
         <Footer />
       </div>
     </Layout>
