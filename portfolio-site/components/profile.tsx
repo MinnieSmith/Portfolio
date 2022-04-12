@@ -1,6 +1,6 @@
 const Profile = () => {
     return (
-        <div>
+        <div className="text-justify mt-4">
             <div>
                 <p>
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 

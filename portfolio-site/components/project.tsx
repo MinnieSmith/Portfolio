@@ -10,18 +10,22 @@ export interface ProjectInterface {
 
 const Project = (props: ProjectInterface) => {
     return (
-        <div className="flex gap-5 bg-indigo-50 opacity-60">
-            <div className="relative w-24 h-16">
-                <Image src={props.image} layout="fill"/>
+        <div className="ml-10 mr-10 m-8">
+            <div className="flex gap-6 bg-indigo-100 opacity-70 hover:animate-pulse">
+                <div className="relative w-32 h-24">
+                    <Image src={props.image} layout="fill" />
+                </div>
+                <div className="my-auto">
+                    <Link href={props.url}  >
+                        <a className="text-slate-900 font-bold underline hover:text-teal-300">{props.title}</a>
+                    </Link>
+
+                    <div className="font-light">{props.desc}</div>
+                </div>
             </div>
-            <div className="my-auto">
-                <Link href = {props.url}  >
-                    <a className="text-slate-900 font-bold underline hover:text-teal-300">{props.title}</a>
-                </Link>
-            
-            <div className="font-light">{props.desc}</div>   
-            </div>
+
         </div>
+
     );
 
 }
