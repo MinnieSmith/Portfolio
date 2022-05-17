@@ -7,12 +7,15 @@ import ProjectLayout from '../components/projectslayout'
 const AboutMe: NextPage = () => {
 
   return (
-    <ProjectLayout>
-      <div className="flex flex-col gap-5">
-        Something about myself
-      </div>
-      <Footer></Footer>
-    </ProjectLayout>
+    <div bg-red-200>
+      <ProjectLayout>
+        <div className="flex flex-col gap-5">
+          Something about myself
+        </div>
+        <Footer></Footer>
+      </ProjectLayout>      
+    </div>
+
 
 
   );
