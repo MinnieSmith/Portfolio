@@ -1,6 +1,6 @@
 const Profile = () => {
     return (
-        <div className="text-slate-400 text-justify text-xs mt-4">
+        <div className="text-black text-justify text-lg mt-8 mb-10">
             <div>
                 <p>
                  

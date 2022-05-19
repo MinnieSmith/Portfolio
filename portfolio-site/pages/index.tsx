@@ -13,7 +13,6 @@ const Home: NextPage = () => {
   return (
     <div className="bg-fixed bg-cover bg-[url('/ecobeach.jpeg')]">
       <Layout>
-
         <Header />
         <Title />
         <Profile />
