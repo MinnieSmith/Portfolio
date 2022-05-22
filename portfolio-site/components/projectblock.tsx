@@ -42,7 +42,7 @@ const ProjectBlock = () => {
 
 
     return (
-        <div className="overflow-y-scroll h-72">
+        <div>
             {projectDataElements}
         </div>
     );

@@ -8,21 +8,19 @@ export interface BlogInterface {
 
 const Blog = (props: BlogInterface) => {
     return (
-        <div className="m-10 flex bg-red-50 rounded-lg p-5 drop-shadow-xl">
-            <div className="relative md:w-44 md:h-44 w-24 h-24 rounded-full ml-2 mr-5">
-                <Image src={props.image} layout="fill"/>
-            </div>
-            <div className="pt-6 md: text-center">
-            <figcaption className="font-2xl">
-                <div className="text-slate-800">
-                    {props.title}
-                </div>
-            </figcaption>
-            <blockquote>
-                <p className="txt-md md:text-lg font-medium">
-                    {props.desc}
-                </p>
-            </blockquote>
+        <div className="m-10 md:flex opacity-80 bg-fuchsia-50 rounded-lg p-5 drop-shadow-xl">
+            <img className="mx-auto md:ml-2 rounded-full drop-shadow-xl sm:rounded-none sm:w-44 sm:h-44 w-24 h-24" src={props.image}/>
+            <div className="pt-4 text-center md:text-left md:ml-5 md:text-lg">
+                <figcaption className="font-2xl">
+                    <div className="text-slate-800">
+                        {props.title}
+                    </div>
+                </figcaption>
+                <blockquote>
+                    <p>
+                        {props.desc}
+                    </p>
+                </blockquote>
             </div>
         </div>
     );
