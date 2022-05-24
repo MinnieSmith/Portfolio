@@ -15,9 +15,9 @@ const Project = (props: ProjectInterface) => {
                 <img className="flex-none rounded-l-lg w-28 h-20 md:w-36 md:h-28" src={props.image}/>
                 <div className="my-auto">
                     <Link href={props.url}>
-                        <a className="text-slate-900 font-bold underline hover:text-teal-300">{props.title}</a>
+                        <a className="text-slate-900 font-bold md:text-lg md:opacity-80 lg:text-lg lg:opacity-80 underline hover:text-teal-300">{props.title}</a>
                     </Link>
-                    <div>{props.desc}</div>
+                    <div className="md:text-lg lg:text-lg">{props.desc}</div>
                 </div>
             </div>
 

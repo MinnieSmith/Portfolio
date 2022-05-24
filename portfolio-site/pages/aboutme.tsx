@@ -13,9 +13,9 @@ const AboutMe: NextPage = () => {
         <div className='rounded-lg flex-none w-32 sm:w-44 blur-sm md:w-52 relative bg-fixed bg-cover bg-[url("/gantheumepoint.jpeg")]'>
         </div>
         <ProjectLayout>
-            <BlogBlock/>
+            <BlogBlock/> 
+            <Footer/>
         </ProjectLayout> 
-        <Footer/>
       </div>    
   );
 };

@@ -11,7 +11,7 @@ const Layout = (props: any) => {
                         </div>
                     </Link>
 
-            <div className="overflow-y-scroll h-2/3 max-w-3/4 min-w-sm p-5 m-auto">{props.children}</div>
+            <div className="overflow-y-scroll h-2/3 w-3/4 mb:w-5/6 mb:text-xs mb:p-1 lg:w-2/3 xl:w-1/2 p-5 m-auto">{props.children}</div>
         </div>
 
     );
