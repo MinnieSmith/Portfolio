@@ -12,6 +12,7 @@ import ProjectBlock from '../components/projectblock'
 const Home: NextPage = () => {
   return (
     <div className="bg-fixed bg-cover bg-[url('/ecobeach.jpeg')]">
+      <title>Minhimoo</title>
       <Layout>
         <Header />
         <Title />
