@@ -16,12 +16,12 @@ const BurgerApp: NextPage = () => {
       <div className='rounded-lg flex-none w-32 sm:w-44 blur-sm md:w-52 relative bg-fixed bg-cover bg-[url("/etienne-pauthenet-fbr7RVySrgI-unsplash.jpg")]'>
       </div>
       <ProjectLayout> 
-        <Question title={'Why I built it?'} answer={"I was catching on to all the hype about React. And after having built the previous project with Flask, I can understand the hype with React!"}></Question>
-        <Question title={"What technologies were used?"} answer={"React.js, Firebase"}></Question>
-        <Question title={"What was the hardest part?"} answer={"Following the very long and detailed videos of the Udemy course. I would have appreciated if it would start with build a simple landing page with React, then build an interactive burger ordering app."}></Question>
-        <Question title={"What was the most rewarding part?"} answer={"It's reactive and interactive!"}></Question>
-        <Question title={"What did I learn?"} answer={"How much easier it was doing everything with react compared to Flask! And deploying with Firebase is a dream!"}></Question>
-        <Question title={"What I would like to improve?"} answer={'I probably would make it more visually appealing and pick better colours! I would love to add a few more things to the menu'}></Question>
+        <Question title={'Why I built it?'} answer={"I was catching on to all the hype about React and after having built the previous project with Flask, I can understand the hype with React!"}></Question>
+        <Question title={"What technologies were used?"} answer={"React.js, JavaScript, CSS, and Firebase"}></Question>
+        <Question title={"What was the hardest part?"} answer={"Following the very long and detailed videos of the Udemy course. I would have appreciated if it would start with smaller projects like building a simple landing page first."}></Question>
+        <Question title={"What was the most rewarding part?"} answer={"It's reactive and interactive! Oh and did I mention I love components!!!"}></Question>
+        <Question title={"What did I learn?"} answer={"How much easier it was doing everything with React compared to Flask! Not to mention deploying with Firebase is a dream!"}></Question>
+        <Question title={"What I would like to improve?"} answer={'I probably would make it more visually appealing and pick better colours! I would also love to add a few more things to the menu.'}></Question>
         <div className='lg:m-10 lg:p-5 sm:m-6 sm:p-3 mb:m-4 mb:p-2'>
           <img className="grow mb:mx-auto rounded-lg" src="/burgerapp2.png"/>
         </div>

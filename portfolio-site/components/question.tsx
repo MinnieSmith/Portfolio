@@ -7,8 +7,8 @@ export interface QuestionInterface {
 const Question = (props: QuestionInterface) => {
     return (
         <div className="bg-white opacity-80 drop-shadow-xl lg:m-8 lg:p-5 sm:m-6 sm:p-3 mb:m-4 mb:p-2 rounded-lg">
-          <div className='lg:text-base sm:text-sm mb:text-xs font-semibold m-1'>{props.title}</div>
-          <div className='lg:text-sm mb:text-xs text-slate-700 m-1'>
+          <div className='lg:text-lg sm:text-base mb:text-xs font-semibold m-1'>{props.title}</div>
+          <div className='lg:text-base mb:text-xs md:text-sm text-slate-700 m-1'>
             <p>
               {props.answer} 
             </p>

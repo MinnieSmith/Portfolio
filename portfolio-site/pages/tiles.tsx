@@ -17,11 +17,11 @@ const GameServer: NextPage = () => {
         </div>
         <ProjectLayout>
         <Question title={'Why I built it?'} answer={"This one was for my networks unit project."}></Question>
-        <Question title={"What technologies were used?"} answer={"Socket programming"}></Question>
+        <Question title={"What technologies were used?"} answer={"Socket programming with Python and SocketIO"}></Question>
         <Question title={"What was the hardest part?"} answer={"Understanding the concepts behind socket programming and researching to build a multiplayer game server from scratch. Also, the code for the game itself was written by someone else, so it took a lot of time to pick up half way through and figure out the logic and intentions of their code."}></Question>
-        <Question title={"What was the most rewarding part?"} answer={"It required a lot of problem solving, so the 'ahah!' moment was pretty sweet"}></Question>
+        <Question title={"What was the most rewarding part?"} answer={'It required a lot of problem solving, so the "ahah" moment was pretty sweet'}></Question>
         <Question title={"What did I learn?"} answer={"That I can build a socket game server from scratch in three weeks!"}></Question>
-        <Question title={"What I would like to improve?"} answer={'I would like to add more features and actually host it!'}></Question>
+        <Question title={"What I would like to improve?"} answer={'To add more features, like player rankings and actually host it!'}></Question>
         <div className='lg:m-10 lg:p-5 sm:m-6 sm:p-3 mb:m-4 mb:p-2'>
           <img className="grow mb:mx-auto rounded-lg" src="/tiles.png"/>
         </div>
