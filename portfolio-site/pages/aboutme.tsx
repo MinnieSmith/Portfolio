@@ -12,7 +12,8 @@ const AboutMe: NextPage = () => {
     <div className="bg-red-50 flex w-screen h-screen">
       <title>About Me</title>
       <div className='z-40 top-6 left-4 text-xl md:text-3xl opacity-90 absolute md:top-8 md:left-10 sm:top-8 sm:left-10 sm:text-2xl font-semibold text-white'> about me</div>
-      <div className='rounded-lg flex-none w-32 sm:w-44 blur-sm md:w-52 relative bg-fixed bg-cover bg-[url("/gantheume.jpeg")]'>
+      <div className='rounded-lg flex-none w-32 sm:w-44 blur-sm md:w-52'>
+      <Image src={"/gantheume.jpeg"} width={250} height={1500} layout="responsive" alt="The furbabies"/>
       </div>
       <ProjectLayout>
         <BlogBlock />
