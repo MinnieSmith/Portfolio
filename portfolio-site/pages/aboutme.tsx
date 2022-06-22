@@ -2,7 +2,8 @@ import type { NextPage } from 'next'
 import Footer from '../components/footer'
 import React from 'react'
 import ProjectLayout from '../components/projectslayout'
-import BlogBlock from '../components/blogblock';
+import BlogBlock from '../components/blogblock'
+import Image from "next/image";
 
 
 const AboutMe: NextPage = () => {
@@ -16,7 +17,7 @@ const AboutMe: NextPage = () => {
       <ProjectLayout>
         <BlogBlock />
         <div className='shadow-xl lg:mt-16 lg:mb-16 lg:ml-40 lg:mr-40 lg:p-5 sm:m-6 sm:p-3 mb:m-4 mb:p-2 opacity-90 bg-sky-50'>
-          <img className="grow mb:mx-auto rounded-lg shadow-xl" src="/deskdog2.jpeg" />
+          <Image className="grow mb:mx-auto rounded-lg shadow-xl" src={"/deskdog2.jpeg"} width={600} height={400} layout="responsive"/>
           <div className='p-2 text-slate-700'>
             <figcaption>
               This photos was taken literally as I'm writing this page!
