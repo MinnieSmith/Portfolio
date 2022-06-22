@@ -20,7 +20,7 @@ const AboutMe: NextPage = () => {
           <Image className="grow mb:mx-auto rounded-lg shadow-xl" src={"/deskdog2.jpeg"} width={600} height={400} layout="responsive" alt="The furbabies"/>
           <div className='p-2 text-slate-700'>
             <figcaption>
-              "This photos was taken literally as I'm writing this page!"
+              This photos was taken literally as I&apos;m writing this page!
             </figcaption>
           </div>
         </div>
