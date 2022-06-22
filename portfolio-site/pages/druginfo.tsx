@@ -34,4 +34,4 @@ const DrugInfo: NextPage = () => {
   );
 };
 
-export default DrugInfo
+export default DrugInfo;

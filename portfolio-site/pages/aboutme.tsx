@@ -29,4 +29,4 @@ const AboutMe: NextPage = () => {
   );
 };
 
-export default AboutMe
+export default AboutMe;

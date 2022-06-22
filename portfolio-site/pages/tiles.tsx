@@ -35,4 +35,4 @@ const GameServer: NextPage = () => {
   );
 };
 
-export default GameServer
+export default GameServer;

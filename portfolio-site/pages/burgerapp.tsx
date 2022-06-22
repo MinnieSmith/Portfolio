@@ -35,4 +35,4 @@ const BurgerApp: NextPage = () => {
   );
 };
 
-export default BurgerApp
+export default BurgerApp;
