@@ -32,9 +32,18 @@ const ProjectBlock = () => {
     }
     );
 
+    projectDataArr.push(
+    {
+        title: "Education Dental App",
+        desc: "OpenAI GPT-3 powered dental assistant",
+        url: "/tooti",
+        image: "/Tooti.png",
+    }
+    );
+
     const projectDataElements = [];
 
-    for (let i = 0; i < projectDataArr.length; i++) {
+    for (let i = projectDataArr.length-1; i >= 0; i--) {
     const data = projectDataArr[i];
     const element = <Project {...data} key={i} />;
     projectDataElements.push(element);
@@ -42,7 +51,7 @@ const ProjectBlock = () => {
 
 
     return (
-        <div>
+        <div className="div-row">
             {projectDataElements}
         </div>
     );

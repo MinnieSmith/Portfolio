@@ -14,9 +14,6 @@ const Home: NextPage = () => {
     <div className="bg-fixed bg-cover bg-[url('/ecobeach.jpeg')]">
       <title>Minhimoo</title>
       <Layout>
-        <Header />
-        <Title />
-        <Profile />
         <ProjectBlock/>
         <Footer />
       </Layout>
